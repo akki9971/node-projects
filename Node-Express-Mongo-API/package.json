@@ -1,0 +1,17 @@
+{
+  "name": "men-api",
+  "version": "1.0.0",
+  "description": "this api is built in node , express and mongo to handle users data",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "aaquib ali",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4"
+  }
+}
